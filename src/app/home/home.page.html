@@ -1,8 +1,6 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Salón de Eventos ARES</ion-title>
     <ion-buttons>
       <ion-back-button text="Atras">
 
@@ -11,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content padding class="background">
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
@@ -19,13 +17,16 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app? </strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-    <ion-button shape="round" size="large" expand="block" color="dark" routerLink="/bodas">Bodas</ion-button>
+    <div class="ion-text-center">
+      <img src="./assets/logopng.png" width="600" class="ion-align-items-center"/>
+    </div>
     <br>
-    <ion-button shape="round" expand="block" fill="outline" size="large" color="dark" routerLink="/quinces">15 años</ion-button>
+    <ion-button class="btn1" shape="round" size="large" expand="block" routerLink="/bodas">Bodas</ion-button>
     <br>
-    <ion-button shape="round" size="large" expand="block" color="dark" routerLink="/fiestas">Fiestas</ion-button>
-
+    <ion-button class="btn2" shape="round" size="large" expand="block" routerLink="/quinces">15 años</ion-button>
+    <br>
+    <ion-button class="btn1" shape="round" size="large" expand="block" routerLink="/fiestas">Fiestas</ion-button>
   </div>
+
+
 </ion-content>

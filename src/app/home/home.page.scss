@@ -25,3 +25,15 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content.background{
+  --background: url(../../assets/back3.png) 0 0/100% 100% no-repeat;
+}
+
+.btn1{
+  --background: sienna;
+}
+
+.btn2{
+  --background: peru;
+}

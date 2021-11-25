@@ -13,15 +13,19 @@ const routes: Routes = [
   },
   {
     path: 'bodas',
-    loadChildren: () => import('./bodas/bodas.module').then( m => m.BodasPageModule)
+    loadChildren: () => import('./components/bodas/bodas.module').then(m => m.BodasPageModule)
   },
   {
     path: 'quinces',
-    loadChildren: () => import('./quinces/quinces.module').then( m => m.QuincesPageModule)
+    loadChildren: () => import('./components/quinces/quinces.module').then(m => m.QuincesPageModule)
   },
   {
     path: 'fiestas',
-    loadChildren: () => import('./fiestas/fiestas.module').then( m => m.FiestasPageModule)
+    loadChildren: () => import('./components/fiestas/fiestas.module').then(m => m.FiestasPageModule)
+  },
+  {
+    path: 'header',
+    loadChildren: () => import('./components/header/header.module').then( m => m.HeaderPageModule)
   },
 ];
 

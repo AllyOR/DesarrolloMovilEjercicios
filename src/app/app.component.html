@@ -1,3 +1,34 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="dark">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content >
+      <ion-list>
+        <ion-item routerLink="home">
+          <ion-icon name="home-outline" slot="start" color="warning"> </ion-icon>
+          <ion-label> Inicio</ion-label>
+        </ion-item>
+        <ion-item routerLink="bodas">
+          <ion-icon name="heart-outline" slot="start" color="warning"> </ion-icon>
+          <ion-label> Bodas</ion-label>
+        </ion-item>
+        <ion-item routerLink="fiestas">
+          <ion-icon name="beer-outline" slot="start" color="warning"> </ion-icon>
+          <ion-label> Fiestas</ion-label>
+        </ion-item>
+        <ion-item routerLink="quinces">
+          <ion-icon name="sparkles-outline" slot="start" color="warning"> </ion-icon>
+          <ion-label> Quinces</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-title></ion-title>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>

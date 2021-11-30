@@ -2,7 +2,7 @@
 
   <ion-menu side="start" menuId="first" contentId="main">
     <ion-header>
-      <ion-toolbar color="dark">
+      <ion-toolbar class="bg">
         <ion-title>Menu</ion-title>
       </ion-toolbar>
     </ion-header>
@@ -10,20 +10,29 @@
     <ion-content >
       <ion-list>
         <ion-item routerLink="home">
-          <ion-icon name="home-outline" slot="start" color="warning"> </ion-icon>
+          <ion-icon name="home" slot="start" class="orange"> </ion-icon>
           <ion-label> Inicio</ion-label>
         </ion-item>
         <ion-item routerLink="bodas">
-          <ion-icon name="heart-outline" slot="start" color="warning"> </ion-icon>
+          <ion-icon name="heart" slot="start" class="orange"> </ion-icon>
           <ion-label> Bodas</ion-label>
         </ion-item>
         <ion-item routerLink="fiestas">
-          <ion-icon name="beer-outline" slot="start" color="warning"> </ion-icon>
+          <ion-icon name="beer" slot="start" class="orange"> </ion-icon>
           <ion-label> Fiestas</ion-label>
         </ion-item>
         <ion-item routerLink="quinces">
-          <ion-icon name="sparkles-outline" slot="start" color="warning"> </ion-icon>
+          <ion-icon name="sparkles" slot="start" class="orange"> </ion-icon>
           <ion-label> Quinces</ion-label>
+        </ion-item>
+
+        <ion-item routerLink="quinces">
+          <ion-icon name="cash" slot="start" class="orange"> </ion-icon>
+          <ion-label> Precios</ion-label>
+        </ion-item>
+        <ion-item routerLink="quinces">
+          <ion-icon name="pizza" slot="start" class="orange"> </ion-icon>
+          <ion-label> Saladitos</ion-label>
         </ion-item>
       </ion-list>
     </ion-content>

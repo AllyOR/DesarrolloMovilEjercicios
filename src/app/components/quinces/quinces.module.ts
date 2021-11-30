@@ -7,14 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { QuincesPageRoutingModule } from './quinces-routing.module';
 
 import { QuincesPage } from './quinces.page';
+import {HeaderPageModule} from "../header/header.module";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    QuincesPageRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        QuincesPageRoutingModule,
+        HeaderPageModule
+    ],
   declarations: [QuincesPage]
 })
 export class QuincesPageModule {}

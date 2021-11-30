@@ -32,8 +32,30 @@ ion-content.background{
 
 .btn1{
   --background: sienna;
+  font-family: "American Typewriter";
 }
 
 .btn2{
   --background: peru;
+  font-family: "American Typewriter";
+}
+
+.btn3{
+  --color: white;
+  --border-color: peru;
+  font-family: "American Typewriter";
+}
+
+.bg-footer{
+  --background: rgb(102,0,0);
+  --background: linear-gradient(0deg, rgba(102,0,0,1) 0%, rgba(121,59,9,1) 32%, rgba(161,93,0,1) 100%);
+  font-family: "American Typewriter";
+  color: white;
+}
+
+.bg{
+  //--background: #212300;
+  color: peru;
+  text-align: center;
+  font-family: "American Typewriter";
 }

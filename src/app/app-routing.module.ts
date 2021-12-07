@@ -27,6 +27,18 @@ const routes: Routes = [
     path: 'header',
     loadChildren: () => import('./components/header/header.module').then( m => m.HeaderPageModule)
   },
+  {
+    path: 'bodas-lujo',
+    loadChildren: () => import('./components/bodas-lujo/bodas-lujo.module').then( m => m.BodasLujoPageModule)
+  },
+  {
+    path: 'fiestas-lujo',
+    loadChildren: () => import('./components/fiestas-lujo/fiestas-lujo.module').then( m => m.FiestasLujoPageModule)
+  },
+  {
+    path: 'quinces-lujo',
+    loadChildren: () => import('./components/quinces-lujo/quinces-lujo.module').then( m => m.QuincesLujoPageModule)
+  },
 ];
 
 @NgModule({

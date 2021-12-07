@@ -39,6 +39,14 @@ const routes: Routes = [
     path: 'quinces-lujo',
     loadChildren: () => import('./components/quinces-lujo/quinces-lujo.module').then( m => m.QuincesLujoPageModule)
   },
+  {
+    path: 'bocaditos',
+    loadChildren: () => import('./components/bocaditos/bocaditos.module').then( m => m.BocaditosPageModule)
+  },
+  {
+    path: 'precios',
+    loadChildren: () => import('./components/precios/precios.module').then( m => m.PreciosPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -16,9 +15,7 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
@@ -33,17 +30,20 @@ ion-content.background{
 .btn1{
   --background: sienna;
   font-family: "American Typewriter";
+  font-size: 1rem;
 }
 
 .btn2{
   --background: peru;
   font-family: "American Typewriter";
+  font-size: 1rem;
 }
 
 .btn3{
   --color: white;
   --border-color: peru;
   font-family: "American Typewriter";
+  font-size: 1rem;
 }
 
 .bg-footer{
@@ -54,7 +54,6 @@ ion-content.background{
 }
 
 .bg{
-  //--background: #212300;
   color: peru;
   text-align: center;
   font-family: "American Typewriter";

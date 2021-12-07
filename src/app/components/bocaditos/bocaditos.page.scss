@@ -1,0 +1,21 @@
+li{
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+h4, h1{
+  color: peru;
+}
+
+//ion-grid{
+//  background-color: antiquewhite;
+//}
+
+ion-button{
+  --background: sienna;
+}
+
+ion-content.background{
+  //--background: url(/../../assets/back5.png) 0 0/100% 100% no-repeat;
+  --background: antiquewhite;
+}
